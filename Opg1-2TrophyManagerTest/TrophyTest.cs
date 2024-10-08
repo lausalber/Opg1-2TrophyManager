@@ -30,7 +30,8 @@ namespace Opg1_2TrophyManagerTest
 
         [TestMethod]
         [DataRow(1970)]
-        [DataRow(2005)]
+        [DataRow(1971)]
+        [DataRow(2023)]
         [DataRow(2024)]
         public void ValidateYearTest(int year)
         {
