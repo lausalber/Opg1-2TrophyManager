@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg1-2TrophyManager", "Opg1-2TrophyManager\Opg1-2TrophyManager.csproj", "{9ACEEAB8-F5B1-4DC4-A127-3DFC3CCD62CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg1-2TrophyManagerTest", "Opg1-2TrophyManagerTest\Opg1-2TrophyManagerTest.csproj", "{0C46B859-B63B-480D-B899-04B2CA0ADECD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9ACEEAB8-F5B1-4DC4-A127-3DFC3CCD62CE} = {9ACEEAB8-F5B1-4DC4-A127-3DFC3CCD62CE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
